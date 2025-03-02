@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalMS", "HospitalMS\HospitalMS.csproj", "{5E136553-2169-41CA-B726-A20B05F1EDBD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13911093-D659-48F0-98D4-7C6E900B3F6B} = {13911093-D659-48F0-98D4-7C6E900B3F6B}
+		{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B} = {63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}"
 EndProject

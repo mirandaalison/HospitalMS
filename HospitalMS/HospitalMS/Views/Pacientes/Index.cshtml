@@ -3,5 +3,92 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Pacientes</h1>
+<h1 class="mb-4 text-center">Pacientes</h1>
+
+
+<fieldset class="border p-4 rounded shadow-sm">
+    <legend class="w-auto px-3">Agregar Pacientes</legend>
+
+    <form id="frmGuardarPacientes" method="post" class="row g-3">
+        <div class="col-md-6">
+            <label for="inputNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="inputApellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Apellido">
+        </div>
+        <div class="col-md-6">
+            <label for="inputFechaNacimiento" class="form-label">FechaNacimiento</label>
+            <input type="text" class="form-control" name="FechaNacimiento" id="FechaNacimiento" placeholder="FechaNacimiento">
+        </div>
+        <div class="col-md-6">
+            <label for="inputTelefono" class="form-label">Telefono</label>
+            <input type="text" class="form-control" name="Telefono" id="Telefono" placeholder="Telefono">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="text" class="form-control" name="Email" id="Email" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+            <label for="inputDireccion" class="form-label">Dirección</label>
+            <input type="text" class="form-control" name="Direccion" id="Direccion" placeholder="Direccion">
+        </div>
+
+        <div class="col-12 text-end mt-3">
+            <button type="button" class="btn btn-primary me-2" onclick="GuardarPacientes()">
+                <i class="bi bi-search"></i> Agregar
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="LimpiarPacientes()">
+                <i class="bi bi-eraser"></i> Limpiar
+            </button>
+        </div>
+    </form>
+</fieldset>
+
+<fieldset class="border p-4 rounded shadow-sm">
+    <legend class="w-auto px-3">Búsqueda de Pacientes</legend>
+    <form id="frmBusquedaPacientes" method="post" class="row g-3">
+        <div class="col-md-6">
+            <label for="buscarNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="Nombre" id="buscarNombre" placeholder="Nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarApellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="Apellido" id="buscarApellido" placeholder="Apellido">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarFechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+            <input type="date" class="form-control" name="FechaNacimiento" id="buscarFechaNacimiento">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarTelefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" name="Telefono" id="buscarTelefono" placeholder="Teléfono">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" id="buscarEmail" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarDireccion" class="form-label">Dirección</label>
+            <input type="text" class="form-control" name="Direccion" id="buscarDireccion" placeholder="Dirección">
+        </div>
+        <div class="col-12 text-end mt-3">
+            <button type="button" class="btn btn-primary me-2" onclick="BuscarPacientes()">
+                <i class="bi bi-search"></i> Buscar
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="LimpiarBusquedaPacientes()">
+                <i class="bi bi-eraser"></i> Limpiar
+            </button>
+        </div>
+    </form>
+</fieldset>
+
+
+
+<div id="divTable" class="mt-4">
+</div>
+
+<script src="~/js/generic.js"></script>
+<script src="~/js/Pacientes.js"></script>
 
