@@ -5572,11 +5572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\4to\\Web\\1. ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
       "projectName": "HospitalMS",
-      "projectPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1. ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1. ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

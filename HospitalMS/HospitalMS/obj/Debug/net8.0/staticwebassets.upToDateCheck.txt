@@ -1,8 +1,10 @@
+wwwroot\css\navegador.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\Citas.js
 wwwroot\js\Especialidades.js
 wwwroot\js\Facturacion.js
+wwwroot\js\generic.js
 wwwroot\js\Medicos.js
 wwwroot\js\Pacientes.js
 wwwroot\js\site.js

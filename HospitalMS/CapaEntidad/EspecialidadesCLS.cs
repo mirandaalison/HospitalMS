@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class EspecialidadesCLS
+    public class EspecialidadesCLS
     {
     }
 }

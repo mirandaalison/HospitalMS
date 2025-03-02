@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class CitasCLS
+    public class CitasCLS
     {
     }
 }

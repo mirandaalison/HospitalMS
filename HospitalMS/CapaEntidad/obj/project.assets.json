@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\4to\\Web\\1. ProyectoParcial3Hospital\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
       "projectName": "CapaEntidad",
-      "projectPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1. ProyectoParcial3Hospital\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1. ProyectoParcial3Hospital\\HospitalMS\\CapaEntidad\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\CapaEntidad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaNegocio
 {
-    internal class PacientesBL
+    public class PacientesBL
     {
     }
 }
