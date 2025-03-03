@@ -84,17 +84,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Mar 2025 19:45:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HospitalMS/js/generic.9xzuz0zmka.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generic.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9xzuz0zmka"},{"Name":"integrity","Value":"sha256-XcRrTTmZXypQ2aDPQpqYAEPQVD7EE7qz8b7qJ141nf8="},{"Name":"label","Value":"_content/HospitalMS/js/generic.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7849"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XcRrTTmZXypQ2aDPQpqYAEPQVD7EE7qz8b7qJ141nf8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 23:13:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HospitalMS/js/generic.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generic.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pD8m9mokni/tc14ZvIUGtcsg11LX9jlKxVKqdWhEenU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7387"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pD8m9mokni/tc14ZvIUGtcsg11LX9jlKxVKqdWhEenU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Mar 2025 19:46:56 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HospitalMS/js/generic.ss93keukdx.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generic.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ss93keukdx"},{"Name":"integrity","Value":"sha256-pD8m9mokni/tc14ZvIUGtcsg11LX9jlKxVKqdWhEenU="},{"Name":"label","Value":"_content/HospitalMS/js/generic.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7387"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pD8m9mokni/tc14ZvIUGtcsg11LX9jlKxVKqdWhEenU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Mar 2025 19:46:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XcRrTTmZXypQ2aDPQpqYAEPQVD7EE7qz8b7qJ141nf8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7849"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XcRrTTmZXypQ2aDPQpqYAEPQVD7EE7qz8b7qJ141nf8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 23:13:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Medicos.3r8b2a0bt1.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Medicos.js'))</AssetFile>
@@ -111,14 +111,14 @@
     <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Pacientes.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Pacientes.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-43dd08bMVjwf\u002B63ubp9NUBwpVI7EU0OEXYvNttk1kF0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5830"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002243dd08bMVjwf\u002B63ubp9NUBwpVI7EU0OEXYvNttk1kF0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Mar 2025 20:07:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5912"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:04:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Pacientes.zo6s7w8gx9.js">
+    <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Pacientes.v6jeexked8.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Pacientes.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zo6s7w8gx9"},{"Name":"integrity","Value":"sha256-43dd08bMVjwf\u002B63ubp9NUBwpVI7EU0OEXYvNttk1kF0="},{"Name":"label","Value":"_content/HospitalMS/js/Pacientes.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5830"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002243dd08bMVjwf\u002B63ubp9NUBwpVI7EU0OEXYvNttk1kF0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Mar 2025 20:07:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v6jeexked8"},{"Name":"integrity","Value":"sha256-WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o="},{"Name":"label","Value":"_content/HospitalMS/js/Pacientes.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5912"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:04:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HospitalMS/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
