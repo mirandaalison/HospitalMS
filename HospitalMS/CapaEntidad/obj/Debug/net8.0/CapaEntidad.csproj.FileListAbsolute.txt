@@ -11,3 +11,16 @@ C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\C
 C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\refint\CapaEntidad.dll
 C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.pdb
 C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\ref\CapaEntidad.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\bin\Debug\net8.0\CapaEntidad.deps.json
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\bin\Debug\net8.0\CapaEntidad.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\bin\Debug\net8.0\CapaEntidad.pdb
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.sourcelink.json
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\refint\CapaEntidad.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\CapaEntidad.pdb
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaEntidad\obj\Debug\net8.0\ref\CapaEntidad.dll

@@ -14,3 +14,19 @@ C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\C
 C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\CapaDatos\bin\Debug\net8.0\CapaEntidad.pdb
 C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.Up2Date
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\bin\Debug\net8.0\CapaDatos.deps.json
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\bin\Debug\net8.0\CapaDatos.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\bin\Debug\net8.0\CapaDatos.pdb
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\bin\Debug\net8.0\CapaEntidad.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\bin\Debug\net8.0\CapaEntidad.pdb
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.sourcelink.json
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.Up2Date
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\refint\CapaDatos.dll
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\CapaDatos.pdb
+C:\Users\Alexander\Desktop\HospitalMS\HospitalMS\CapaDatos\obj\Debug\net8.0\ref\CapaDatos.dll
