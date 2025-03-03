@@ -28,10 +28,10 @@ namespace CapaNegocio
             return obj.GuardarPacientes(objPacientes);
         }
 
-        public PacientesCLS RecuperarPacientes(int Id)
+        public PacientesCLS RecuperarPacientes(int id)
         {
             PacientesDAL obj = new PacientesDAL();
-            return obj.RecuperarPacientes(Id);
+            return obj.RecuperarPacientes(id);
         }
 
         public int GuardarCambiosPacientes(PacientesCLS objPacientes)
@@ -40,10 +40,10 @@ namespace CapaNegocio
             return obj.GuardarCambiosPacientes(objPacientes);
         }
 
-        public int EliminarPacientes(int Id)
+        public int EliminarPacientes(int id)
         {
             PacientesDAL objDAL = new PacientesDAL();
-            return objDAL.EliminarPacientes(Id);
+            return objDAL.EliminarPacientes(id);
         }
     }
 }

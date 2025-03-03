@@ -4,37 +4,30 @@
 
 let objPacientes;
 
-
-
 async function ListarPacientes() {
     objPacientes = {
         url: "Pacientes/ListarPacientes",
-        cabeceras: ["Id", "Nombre", "Apellido", "FechaNacimiento", "Telefono", "Email", "Direccion"],
-        propiedades: ["Id", "Nombre", "Apellido", "FechaNacimiento", "Telefono", "Email", "Direccion"],
+        cabeceras: ["Id", "Nombre", "Apellido", "Fecha Nacimiento", "Teléfono", "Email", "Dirección"],
+        propiedades: ["id", "nombre", "apellido", "fechaNacimiento", "telefono", "email", "direccion"],
         editar: true,
         eliminar: true,
-        propiedadId: "Id"
+        propiedadId: "id"
     }
     pintar(objPacientes);
 }
 
-
-
 function FiltrarPacientes() {
-    let Nombre = get("txtPacientes");
-    if (Nombre == "") {
+    let nombre = get("txtPacientes");
+    if (nombre == "") {
         ListarPacientes();
     } else {
-        objPacientes.url = "Pacientes/FiltrarPacientes/?Nombre=" + Nombre;
+        objPacientes.url = "Pacientes/FiltrarPacientes/?nombre=" + nombre;
         pintar(objPacientes);
     }
-
 }
 
-
-
 function BuscarPacientes() {
-    let forma = document.getElementById("frmBusqueda");
+    let forma = document.getElementById("frmBusquedaPacientes");
 
     let frm = new FormData(forma);
 
@@ -43,14 +36,15 @@ function BuscarPacientes() {
     })
 }
 
-
-
 function LimpiarPacientes() {
     LimpiarDatos("frmGuardarPacientes");
     ListarPacientes();
 }
 
-
+function LimpiarBusquedaPacientes() {
+    LimpiarDatos("frmBusquedaPacientes");
+    ListarPacientes();
+}
 
 function GuardarPacientes() {
     let forma = document.getElementById("frmGuardarPacientes");
@@ -58,53 +52,48 @@ function GuardarPacientes() {
     fetchPost("Pacientes/GuardarPacientes", "text", frm, function (res) {
         ListarPacientes();
         LimpiarDatos("frmGuardarPacientes");
-
     })
 }
 
-
-
-function EditarPacientes(Id) {
-    fetchGet("Pacientes/RecuperarPacientes/?Id=" + Id, "json", function (data) {
+function EditarPacientes(id) {
+    fetchGet("Pacientes/RecuperarPacientes/?id=" + id, "json", function (data) {
         const modalContent = `
-
-        <form Id="frmEditarPacientesModal" class="row g-3">
-            <input type="hidden" name="Id" value="${data.Id}">
+        <form id="frmEditarPacientesModal" class="row g-3">
+            <input type="hidden" name="id" value="${data.id}">
 
             <div class="col-md-6">
-                <label for="NombreModal" class="form-label">Nombre</label>
-                <input type="text" class="form-control" name="Nombre" Id="NombreModal" value="${data.Nombre}" placeholder="Nombre del Paciente">
+                <label for="nombreModal" class="form-label">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombreModal" value="${data.nombre}" placeholder="Nombre del Paciente">
             </div>
 
             <div class="col-md-6">
-                <label for="ApellidoModal" class="form-label">Apellido</label>
-                <input type="text" class="form-control" name="Apellido" Id="ApellidoModal" value="${data.Apellido}" placeholder="Apellido del Paciente">
+                <label for="apellidoModal" class="form-label">Apellido</label>
+                <input type="text" class="form-control" name="apellido" id="apellidoModal" value="${data.apellido}" placeholder="Apellido del Paciente">
             </div>
 
             <div class="col-md-6">
-                <label for="FechaNacimientoModal" class="form-label">Fecha de Nacimiento</label>
-                <input type="date" class="form-control" name="FechaNacimiento" Id="FechaNacimientoModal" value="${data.FechaNacimiento ? new Date(data.FechaNacimiento).toISOString().substring(0, 10) : ''}" placeholder="Fecha de Nacimiento">
+                <label for="fechaNacimientoModal" class="form-label">Fecha de Nacimiento</label>
+                <input type="date" class="form-control" name="fechaNacimiento" id="fechaNacimientoModal" value="${data.fechaNacimiento ? new Date(data.fechaNacimiento).toISOString().substring(0, 10) : ''}" placeholder="Fecha de Nacimiento">
             </div>
 
             <div class="col-md-6">
-                <label for="TelefonoModal" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" name="Telefono" Id="TelefonoModal" value="${data.Telefono}" placeholder="Número de Teléfono">
+                <label for="telefonoModal" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" name="telefono" id="telefonoModal" value="${data.telefono}" placeholder="Número de Teléfono">
             </div>
 
             <div class="col-md-6">
-                <label for="EmailModal" class="form-label">Email</label>
-                <input type="email" class="form-control" name="Email" Id="EmailModal" value="${data.Email}" placeholder="Correo Electrónico">
+                <label for="emailModal" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="emailModal" value="${data.email}" placeholder="Correo Electrónico">
             </div>
 
             <div class="col-md-6">
-                <label for="DireccionModal" class="form-label">Dirección</label>
-                <input type="text" class="form-control" name="Direccion" Id="DireccionModal" value="${data.Direccion}" placeholder="Dirección del Paciente">
+                <label for="direccionModal" class="form-label">Dirección</label>
+                <input type="text" class="form-control" name="direccion" id="direccionModal" value="${data.direccion}" placeholder="Dirección del Paciente">
             </div>
-
         </form>`;
 
         Swal.fire({
-            title: 'Editar Pacientes',
+            title: 'Editar Paciente',
             html: modalContent,
             icon: 'info',
             showCancelButton: true,
@@ -130,7 +119,6 @@ function EditarPacientes(Id) {
             }
         }).then((result) => {
             if (result.isConfirmed) {
-
                 ListarPacientes();
                 Swal.fire({
                     title: 'Actualizado',
@@ -142,9 +130,7 @@ function EditarPacientes(Id) {
     });
 }
 
-
-
-function EliminarPacientes(Id) {
+function EliminarPacientes(id) {
     showConfirmationModal({
         title: "¿Está seguro?",
         text: "¿Desea eliminar este Paciente?",
@@ -152,7 +138,7 @@ function EliminarPacientes(Id) {
         confirmButtonText: "Sí, eliminar",
         cancelButtonText: "Cancelar",
         onConfirm: function () {
-            fetchGet("Pacientes/EliminarPacientes/?Id=" + Id, "text", function (res) {
+            fetchGet("Pacientes/EliminarPacientes/?id=" + id, "text", function (res) {
                 ListarPacientes();
                 Swal.fire({
                     title: "Eliminado",

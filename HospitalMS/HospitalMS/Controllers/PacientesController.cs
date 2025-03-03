@@ -2,7 +2,6 @@
 using CapaEntidad;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace HospitalMS.Controllers
 {
     public class PacientesController : Controller
@@ -15,7 +14,15 @@ namespace HospitalMS.Controllers
         public List<PacientesCLS> ListarPacientes()
         {
             PacientesDAL obj = new PacientesDAL();
-            return obj.ListarPacientes();
+            var resultado = obj.ListarPacientes();
+
+            // Depuración: inspeccionar las propiedades
+            foreach (var paciente in resultado)
+            {
+                Console.WriteLine($"id: {paciente.id}, nombre: {paciente.nombre}");
+            }
+
+            return resultado;
         }
 
         public List<PacientesCLS> FiltrarPacientes(PacientesCLS objPacientes)
@@ -23,16 +30,17 @@ namespace HospitalMS.Controllers
             PacientesDAL obj = new PacientesDAL();
             return obj.FiltrarPacientes(objPacientes);
         }
+
         public int GuardarPacientes(PacientesCLS objPacientes)
         {
             PacientesDAL obj = new PacientesDAL();
             return obj.GuardarPacientes(objPacientes);
         }
 
-        public PacientesCLS RecuperarPacientes(int Id)
+        public PacientesCLS RecuperarPacientes(int id)
         {
             PacientesDAL obj = new PacientesDAL();
-            return obj.RecuperarPacientes(Id);
+            return obj.RecuperarPacientes(id);
         }
 
         public int GuardarCambiosPacientes(PacientesCLS objPacientes)
@@ -41,10 +49,10 @@ namespace HospitalMS.Controllers
             return obj.GuardarCambiosPacientes(objPacientes);
         }
 
-        public int EliminarPacientes(int Id)
+        public int EliminarPacientes(int id)
         {
             PacientesDAL objDAL = new PacientesDAL();
-            return objDAL.EliminarPacientes(Id);
+            return objDAL.EliminarPacientes(id);
         }
     }
 }
