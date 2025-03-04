@@ -1,7 +1,104 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Gestión de Médicos";
 }
 
-<h1>Médicos</h1>
+<h1 class="mb-4 text-center">Médicos</h1>
 
+<fieldset class="border p-4 rounded shadow-sm">
+    <legend class="w-auto px-3">Agregar Médico</legend>
+
+    <form id="frmGuardarMedicos" method="post" class="row g-3">
+        <div class="col-md-6">
+            <label for="Nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="Apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Apellido">
+        </div>
+        <div class="col-md-6">
+            <label for="EspecialidadId" class="form-label">ID de Especialidad</label>
+            <input type="number" class="form-control" name="EspecialidadId" id="EspecialidadId" placeholder="ID de Especialidad">
+        </div>
+        <div class="col-md-6">
+            <label for="Identificacion" class="form-label">Identificación</label>
+            <input type="text" class="form-control" name="Identificacion" id="Identificacion" placeholder="Identificación">
+        </div>
+        <div class="col-md-6">
+            <label for="Telefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" name="Telefono" id="Telefono" placeholder="Teléfono">
+        </div>
+        <div class="col-md-6">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
+        </div>
+
+        <div class="col-12 text-end mt-3">
+            <button type="button" class="btn btn-primary me-2" onclick="GuardarMedicos()">
+                <i class="bi bi-save"></i> Agregar
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="LimpiarMedicos()">
+                <i class="bi bi-eraser"></i> Limpiar
+            </button>
+        </div>
+    </form>
+</fieldset>
+
+<fieldset class="border p-4 rounded shadow-sm mt-4">
+    <legend class="w-auto px-3">Búsqueda de Médicos</legend>
+    <form id="frmBusquedaMedicos" method="post" class="row g-3">
+        <div class="col-md-6">
+            <label for="buscarNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="Nombre" id="buscarNombre" placeholder="Nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarApellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="Apellido" id="buscarApellido" placeholder="Apellido">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarEspecialidadId" class="form-label">ID de Especialidad</label>
+            <input type="number" class="form-control" name="EspecialidadId" id="buscarEspecialidadId" placeholder="ID de Especialidad">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarIdentificacion" class="form-label">Identificación</label>
+            <input type="text" class="form-control" name="Identificacion" id="buscarIdentificacion" placeholder="Identificación">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarTelefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" name="Telefono" id="buscarTelefono" placeholder="Teléfono">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" id="buscarEmail" placeholder="Email">
+        </div>
+        <div class="col-12 text-end mt-3">
+            <button type="button" class="btn btn-primary me-2" onclick="BuscarMedicos()">
+                <i class="bi bi-search"></i> Buscar
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="LimpiarBusquedaMedicos()">
+                <i class="bi bi-eraser"></i> Limpiar
+            </button>
+        </div>
+    </form>
+</fieldset>
+
+<input type="hidden" id="hdfOculto" value="" />
+
+<div id="divTable" class="mt-4">
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Referencias -->
+    <script src="~/js/generic.js"></script>
+    <script src="~/js/Medicos.js"></script>
+}
