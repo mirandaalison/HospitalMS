@@ -16,19 +16,27 @@ namespace HospitalMS.Controllers
             TratamientosDAL obj = new TratamientosDAL();
             var resultado = obj.ListarTratamientos();
 
-            // Depuración: inspeccionar las propiedades de cada tratamiento
+            // Depuración: inspeccionar las propiedades
             foreach (var tratamiento in resultado)
             {
-                Console.WriteLine($"Id: {tratamiento.Id}, PacienteId: {tratamiento.PacienteId}, Descripcion: {tratamiento.Descripcion}");
+                Console.WriteLine($"id: {tratamiento.id}, pacienteId: {tratamiento.pacienteId}, descripcion: {tratamiento.descripcion}");
             }
 
             return resultado;
         }
 
-        public int GuardarTratamientos(TratamientosCLS objTratamiento)
+        // Se asume la existencia de un método similar para filtrar tratamientos,
+        // siguiendo el patrón de la clase de Pacientes.
+        public List<TratamientosCLS> FiltrarTratamientos(TratamientosCLS objTratamientos)
         {
             TratamientosDAL obj = new TratamientosDAL();
-            return obj.GuardarTratamientos(objTratamiento);
+            return obj.FiltrarTratamientos(objTratamientos);
+        }
+
+        public int GuardarTratamientos(TratamientosCLS objTratamientos)
+        {
+            TratamientosDAL obj = new TratamientosDAL();
+            return obj.GuardarTratamientos(objTratamientos);
         }
 
         public TratamientosCLS RecuperarTratamientos(int id)
@@ -37,10 +45,10 @@ namespace HospitalMS.Controllers
             return obj.RecuperarTratamientos(id);
         }
 
-        public int GuardarCambiosTratamientos(TratamientosCLS objTratamiento)
+        public int GuardarCambiosTratamientos(TratamientosCLS objTratamientos)
         {
             TratamientosDAL obj = new TratamientosDAL();
-            return obj.GuardarCambiosTratamientos(objTratamiento);
+            return obj.GuardarCambiosTratamientos(objTratamientos);
         }
 
         public int EliminarTratamientos(int id)
