@@ -19,12 +19,7 @@ namespace CapaEntidad
         public string Telefono { get; set; }
         public string Email { get; set; }
 
-        public string NombreEspecialidad { get; set; }
-        public bool Activo { get; set; }
-
-        public string Disponibilidad { get; set; }
-
         // Relación con Especialidad
-        public EspecialidadesCLS Especialidad { get; set; }
+       // public EspecialidadesCLS Especialidad { get; set; }
     }
 }

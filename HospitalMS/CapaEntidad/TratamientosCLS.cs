@@ -10,15 +10,9 @@ namespace CapaEntidad
     {
         public int Id { get; set; } // Id_Tratamiento
         public int PacienteId { get; set; } // Id_Paciente
-        public string IdentificacionPaciente { get; set; } // Identificacion_Paciente
-        public string Descripcion { get; set; } // Descripcion
-        public DateOnly Fecha { get; set; } // Fecha
+        public string Descripcion { get; set; } // Descripcion DEL TRATAMIENTO
+        public DateTime Fecha { get; set; } // Fecha
         public decimal Costo { get; set; } // Costo
 
-        // Relación con Paciente
-        public PacientesCLS Paciente
-        {
-            get; set;
-        }
     }
 }
