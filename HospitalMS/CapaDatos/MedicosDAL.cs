@@ -27,13 +27,12 @@ namespace CapaDatos
                             {
                                 MedicosCLS medico = new MedicosCLS();
 
-                                medico.Id = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
-                                medico.Nombre = dr.IsDBNull(1) ? string.Empty : dr.GetString(1);
-                                medico.Apellido = dr.IsDBNull(2) ? string.Empty : dr.GetString(2);
-                                medico.EspecialidadId = dr.IsDBNull(3) ? 0 : dr.GetInt32(3);
-                                medico.Identificacion = dr.IsDBNull(4) ? string.Empty : dr.GetString(4);
-                                medico.Telefono = dr.IsDBNull(5) ? string.Empty : dr.GetString(5);
-                                medico.Email = dr.IsDBNull(6) ? string.Empty : dr.GetString(6);
+                                medico.id = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
+                                medico.nombre = dr.IsDBNull(1) ? string.Empty : dr.GetString(1);
+                                medico.apellido = dr.IsDBNull(2) ? string.Empty : dr.GetString(2);
+                                medico.especialidadId = dr.IsDBNull(3) ? 0 : dr.GetInt32(3);
+                                medico.telefono = dr.IsDBNull(4) ? string.Empty : dr.GetString(4);
+                                medico.email = dr.IsDBNull(5) ? string.Empty : dr.GetString(5);
 
                                 lista.Add(medico);
                             }
@@ -63,12 +62,11 @@ namespace CapaDatos
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
-                        cmd.Parameters.AddWithValue("@Nombre", string.IsNullOrEmpty(obj.Nombre) ? DBNull.Value : (object)obj.Nombre);
-                        cmd.Parameters.AddWithValue("@Apellido", string.IsNullOrEmpty(obj.Apellido) ? DBNull.Value : (object)obj.Apellido);
-                        cmd.Parameters.AddWithValue("@EspecialidadId", obj.EspecialidadId == 0 ? DBNull.Value : (object)obj.EspecialidadId);
-                        cmd.Parameters.AddWithValue("@Identificacion", string.IsNullOrEmpty(obj.Identificacion) ? DBNull.Value : (object)obj.Identificacion);
-                        cmd.Parameters.AddWithValue("@Telefono", string.IsNullOrEmpty(obj.Telefono) ? DBNull.Value : (object)obj.Telefono);
-                        cmd.Parameters.AddWithValue("@Email", string.IsNullOrEmpty(obj.Email) ? DBNull.Value : (object)obj.Email);
+                        cmd.Parameters.AddWithValue("@Nombre", string.IsNullOrEmpty(obj.nombre) ? DBNull.Value : (object)obj.nombre);
+                        cmd.Parameters.AddWithValue("@Apellido", string.IsNullOrEmpty(obj.apellido) ? DBNull.Value : (object)obj.apellido);
+                        cmd.Parameters.AddWithValue("@EspecialidadId", obj.especialidadId == 0 ? DBNull.Value : (object)obj.especialidadId);
+                        cmd.Parameters.AddWithValue("@Telefono", string.IsNullOrEmpty(obj.telefono) ? DBNull.Value : (object)obj.telefono);
+                        cmd.Parameters.AddWithValue("@Email", string.IsNullOrEmpty(obj.email) ? DBNull.Value : (object)obj.email);
 
                         using (SqlDataReader dr = cmd.ExecuteReader())
                         {
@@ -76,13 +74,12 @@ namespace CapaDatos
                             {
                                 MedicosCLS medico = new MedicosCLS();
 
-                                medico.Id = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
-                                medico.Nombre = dr.IsDBNull(1) ? string.Empty : dr.GetString(1);
-                                medico.Apellido = dr.IsDBNull(2) ? string.Empty : dr.GetString(2);
-                                medico.EspecialidadId = dr.IsDBNull(3) ? 0 : dr.GetInt32(3);
-                                medico.Identificacion = dr.IsDBNull(4) ? string.Empty : dr.GetString(4);
-                                medico.Telefono = dr.IsDBNull(5) ? string.Empty : dr.GetString(5);
-                                medico.Email = dr.IsDBNull(6) ? string.Empty : dr.GetString(6);
+                                medico.id = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
+                                medico.nombre = dr.IsDBNull(1) ? string.Empty : dr.GetString(1);
+                                medico.apellido = dr.IsDBNull(2) ? string.Empty : dr.GetString(2);
+                                medico.especialidadId = dr.IsDBNull(3) ? 0 : dr.GetInt32(3);
+                                medico.telefono = dr.IsDBNull(4) ? string.Empty : dr.GetString(4);
+                                medico.email = dr.IsDBNull(5) ? string.Empty : dr.GetString(5);
 
                                 lista.Add(medico);
                             }
@@ -112,12 +109,11 @@ namespace CapaDatos
                     {
                         cmd.CommandType = CommandType.Text;
 
-                        cmd.Parameters.AddWithValue("@Nombre", obj.Nombre ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@Apellido", obj.Apellido ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@EspecialidadId", obj.EspecialidadId);
-                        cmd.Parameters.AddWithValue("@Identificacion", obj.Identificacion ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@Telefono", obj.Telefono ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@Email", obj.Email ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@Nombre", obj.nombre ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@Apellido", obj.apellido ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@EspecialidadId", obj.especialidadId);
+                        cmd.Parameters.AddWithValue("@Telefono", obj.telefono ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@Email", obj.email ?? string.Empty);
 
                         rpta = cmd.ExecuteNonQuery();
                     }
@@ -151,13 +147,12 @@ namespace CapaDatos
                         {
                             if (dr.Read())
                             {
-                                medico.Id = dr.IsDBNull(dr.GetOrdinal("Id")) ? 0 : dr.GetInt32(dr.GetOrdinal("Id"));
-                                medico.Nombre = dr.IsDBNull(dr.GetOrdinal("Nombre")) ? string.Empty : dr.GetString(dr.GetOrdinal("Nombre"));
-                                medico.Apellido = dr.IsDBNull(dr.GetOrdinal("Apellido")) ? string.Empty : dr.GetString(dr.GetOrdinal("Apellido"));
-                                medico.EspecialidadId = dr.IsDBNull(dr.GetOrdinal("EspecialidadId")) ? 0 : dr.GetInt32(dr.GetOrdinal("EspecialidadId"));
-                                medico.Identificacion = dr.IsDBNull(dr.GetOrdinal("Identificacion")) ? string.Empty : dr.GetString(dr.GetOrdinal("Identificacion"));
-                                medico.Telefono = dr.IsDBNull(dr.GetOrdinal("Telefono")) ? string.Empty : dr.GetString(dr.GetOrdinal("Telefono"));
-                                medico.Email = dr.IsDBNull(dr.GetOrdinal("Email")) ? string.Empty : dr.GetString(dr.GetOrdinal("Email"));
+                                medico.id = dr.IsDBNull(dr.GetOrdinal("Id")) ? 0 : dr.GetInt32(dr.GetOrdinal("Id"));
+                                medico.nombre = dr.IsDBNull(dr.GetOrdinal("Nombre")) ? string.Empty : dr.GetString(dr.GetOrdinal("Nombre"));
+                                medico.apellido = dr.IsDBNull(dr.GetOrdinal("Apellido")) ? string.Empty : dr.GetString(dr.GetOrdinal("Apellido"));
+                                medico.especialidadId = dr.IsDBNull(dr.GetOrdinal("EspecialidadId")) ? 0 : dr.GetInt32(dr.GetOrdinal("EspecialidadId"));
+                                medico.telefono = dr.IsDBNull(dr.GetOrdinal("Telefono")) ? string.Empty : dr.GetString(dr.GetOrdinal("Telefono"));
+                                medico.email = dr.IsDBNull(dr.GetOrdinal("Email")) ? string.Empty : dr.GetString(dr.GetOrdinal("Email"));
                             }
                         }
                     }
@@ -184,13 +179,12 @@ namespace CapaDatos
                     {
                         cmd.CommandType = CommandType.Text;
 
-                        cmd.Parameters.AddWithValue("@Id", obj.Id);
-                        cmd.Parameters.AddWithValue("@Nombre", obj.Nombre ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@Apellido", obj.Apellido ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@EspecialidadId", obj.EspecialidadId);
-                        cmd.Parameters.AddWithValue("@Identificacion", obj.Identificacion ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@Telefono", obj.Telefono ?? string.Empty);
-                        cmd.Parameters.AddWithValue("@Email", obj.Email ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@Id", obj.id);
+                        cmd.Parameters.AddWithValue("@Nombre", obj.nombre ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@Apellido", obj.apellido ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@EspecialidadId", obj.especialidadId);
+                        cmd.Parameters.AddWithValue("@Telefono", obj.telefono ?? string.Empty);
+                        cmd.Parameters.AddWithValue("@Email", obj.email ?? string.Empty);
 
                         rpta = cmd.ExecuteNonQuery();
                     }

@@ -5,24 +5,20 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace CapaEntidad
 {
     public class MedicosCLS
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
-        public int EspecialidadId { get; set; }
-        public string Telefono { get; set; }
-        public string Email { get; set; }
-
-        /*public string NombreEspecialidad { get; set; }
-        public bool Activo { get; set; }
-
-        public string Disponibilidad { get; set; }
-
+        public int id { get; set; }
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+        public int especialidadId { get; set; }
+        public string telefono { get; set; }
+        public string email { get; set; }
+        /*public string nombreEspecialidad { get; set; }
+        public bool activo { get; set; }
+        public string disponibilidad { get; set; }
         // Relación con Especialidad
-        public EspecialidadesCLS Especialidad { get; set; }*/
+        public EspecialidadesCLS especialidad { get; set; }*/
     }
 }

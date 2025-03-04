@@ -19,7 +19,7 @@ namespace HospitalMS.Controllers
             // Depuración: inspeccionar las propiedades
             foreach (var medico in resultado)
             {
-                Console.WriteLine($"Id: {medico.Id}, Nombre: {medico.Nombre}");
+                Console.WriteLine($"Id: {medico.id}, Nombre: {medico.nombre}");
             }
 
             return resultado;

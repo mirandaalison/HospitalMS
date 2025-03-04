@@ -4,47 +4,13 @@
 
 <h1 class="mb-4 text-center">Médicos</h1>
 
-<fieldset class="border p-4 rounded shadow-sm">
-    <legend class="w-auto px-3">Agregar Médico</legend>
+<div class="d-flex justify-content-end mb-4">
+    <button type="button" class="btn btn-primary" onclick="GuardarMedicos()">
+        <i class="bi bi-plus-circle"></i> Agregar Médico
+    </button>
+</div>
 
-    <form id="frmGuardarMedicos" method="post" class="row g-3">
-        <div class="col-md-6">
-            <label for="Nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre">
-        </div>
-        <div class="col-md-6">
-            <label for="Apellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Apellido">
-        </div>
-        <div class="col-md-6">
-            <label for="EspecialidadId" class="form-label">ID de Especialidad</label>
-            <input type="number" class="form-control" name="EspecialidadId" id="EspecialidadId" placeholder="ID de Especialidad">
-        </div>
-        <div class="col-md-6">
-            <label for="Identificacion" class="form-label">Identificación</label>
-            <input type="text" class="form-control" name="Identificacion" id="Identificacion" placeholder="Identificación">
-        </div>
-        <div class="col-md-6">
-            <label for="Telefono" class="form-label">Teléfono</label>
-            <input type="tel" class="form-control" name="Telefono" id="Telefono" placeholder="Teléfono">
-        </div>
-        <div class="col-md-6">
-            <label for="Email" class="form-label">Email</label>
-            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
-        </div>
-
-        <div class="col-12 text-end mt-3">
-            <button type="button" class="btn btn-primary me-2" onclick="GuardarMedicos()">
-                <i class="bi bi-save"></i> Agregar
-            </button>
-            <button type="button" class="btn btn-secondary" onclick="LimpiarMedicos()">
-                <i class="bi bi-eraser"></i> Limpiar
-            </button>
-        </div>
-    </form>
-</fieldset>
-
-<fieldset class="border p-4 rounded shadow-sm mt-4">
+ <fieldset class="border p-4 rounded shadow-sm mt-4">
     <legend class="w-auto px-3">Búsqueda de Médicos</legend>
     <form id="frmBusquedaMedicos" method="post" class="row g-3">
         <div class="col-md-6">
@@ -56,12 +22,8 @@
             <input type="text" class="form-control" name="Apellido" id="buscarApellido" placeholder="Apellido">
         </div>
         <div class="col-md-6">
-            <label for="buscarEspecialidadId" class="form-label">ID de Especialidad</label>
+            <label for="buscarEspecialidadId" class="form-label">Especialidad</label>
             <input type="number" class="form-control" name="EspecialidadId" id="buscarEspecialidadId" placeholder="ID de Especialidad">
-        </div>
-        <div class="col-md-6">
-            <label for="buscarIdentificacion" class="form-label">Identificación</label>
-            <input type="text" class="form-control" name="Identificacion" id="buscarIdentificacion" placeholder="Identificación">
         </div>
         <div class="col-md-6">
             <label for="buscarTelefono" class="form-label">Teléfono</label>
@@ -80,7 +42,7 @@
             </button>
         </div>
     </form>
-</fieldset>
+</fieldset> 
 
 <input type="hidden" id="hdfOculto" value="" />
 

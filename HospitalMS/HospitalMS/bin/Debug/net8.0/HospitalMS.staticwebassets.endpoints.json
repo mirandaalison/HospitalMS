@@ -577,51 +577,6 @@
       ]
     },
     {
-      "Route": "js/Medicos.3r8b2a0bt1.js",
-      "AssetFile": "js/Medicos.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:44:04 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
-        },
-        {
-          "Name": "label",
-          "Value": "js/Medicos.js"
-        }
-      ]
-    },
-    {
       "Route": "js/Medicos.js",
       "AssetFile": "js/Medicos.js",
       "Selectors": [],
@@ -636,7 +591,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "7694"
         },
         {
           "Name": "Content-Type",
@@ -644,17 +599,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:44:04 GMT"
+          "Value": "Tue, 04 Mar 2025 21:07:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="
+        }
+      ]
+    },
+    {
+      "Route": "js/Medicos.vfspo4hzlz.js",
+      "AssetFile": "js/Medicos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 21:07:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfspo4hzlz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Medicos.js"
         }
       ]
     },
@@ -849,7 +849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 23:13:51 GMT"
+          "Value": "Tue, 04 Mar 2025 20:57:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -894,7 +894,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 23:13:51 GMT"
+          "Value": "Tue, 04 Mar 2025 20:57:04 GMT"
         }
       ],
       "EndpointProperties": [
