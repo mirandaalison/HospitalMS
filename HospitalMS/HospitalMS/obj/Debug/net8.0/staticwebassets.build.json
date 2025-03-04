@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S58nv/ctOADnqulkaOKBZJFP4W4GjCJUxL/kvvVnYnI=",
+  "Hash": "EBCX7XPDv64JuuRq1QpeE3SCyrVz1tUX48Rvh3F+Zn0=",
   "Source": "HospitalMS",
   "BasePath": "_content/HospitalMS",
   "Mode": "Default",
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v6jeexked8",
-      "Integrity": "WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o=",
+      "Fingerprint": "1d884x315u",
+      "Integrity": "VfSzMT7N7+g7PW+tqVtR51RlgZETOykEIJTZMBuQyAU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Pacientes.js"
@@ -2309,6 +2309,51 @@
       ]
     },
     {
+      "Route": "js/Pacientes.1d884x315u.js",
+      "AssetFile": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Pacientes.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VfSzMT7N7+g7PW+tqVtR51RlgZETOykEIJTZMBuQyAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 18:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1d884x315u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Pacientes.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VfSzMT7N7+g7PW+tqVtR51RlgZETOykEIJTZMBuQyAU="
+        }
+      ]
+    },
+    {
       "Route": "js/Pacientes.js",
       "AssetFile": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Pacientes.js",
       "Selectors": [],
@@ -2319,7 +2364,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5912"
+          "Value": "8466"
         },
         {
           "Name": "Content-Type",
@@ -2327,11 +2372,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o=\""
+          "Value": "\"VfSzMT7N7+g7PW+tqVtR51RlgZETOykEIJTZMBuQyAU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 07:04:16 GMT"
+          "Value": "Tue, 04 Mar 2025 18:25:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2341,52 +2386,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o="
-        }
-      ]
-    },
-    {
-      "Route": "js/Pacientes.v6jeexked8.js",
-      "AssetFile": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Pacientes.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5912"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 07:04:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v6jeexked8"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Pacientes.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WfUNaR1wqvfWd63fpMbzvqHJILwIj5vqc7JFJxuh3/o="
+          "Value": "sha256-VfSzMT7N7+g7PW+tqVtR51RlgZETOykEIJTZMBuQyAU="
         }
       ]
     },

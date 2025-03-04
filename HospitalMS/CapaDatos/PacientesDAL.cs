@@ -43,7 +43,7 @@ namespace CapaDatos
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error en ListarPacientes: " + ex.Message);
-                    throw; 
+                    throw;
                 }
             }
             return lista;

@@ -46,13 +46,77 @@ function LimpiarBusquedaPacientes() {
     ListarPacientes();
 }
 
+
+
 function GuardarPacientes() {
-    let forma = document.getElementById("frmGuardarPacientes");
-    let frm = new FormData(forma);
-    fetchPost("Pacientes/GuardarPacientes", "text", frm, function (res) {
-        ListarPacientes();
-        LimpiarDatos("frmGuardarPacientes");
-    })
+    const modalContent = `
+    <form id="frmGuardarPacientesModal" class="row g-3">
+        <div class="col-md-6">
+            <label for="nombreModal" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="nombre" id="nombreModal" placeholder="Nombre del Paciente">
+        </div>
+
+        <div class="col-md-6">
+            <label for="apellidoModal" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="apellido" id="apellidoModal" placeholder="Apellido del Paciente">
+        </div>
+
+        <div class="col-md-6">
+            <label for="fechaNacimientoModal" class="form-label">Fecha de Nacimiento</label>
+            <input type="date" class="form-control" name="fechaNacimiento" id="fechaNacimientoModal" placeholder="Fecha de Nacimiento">
+        </div>
+
+        <div class="col-md-6">
+            <label for="telefonoModal" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" name="telefono" id="telefonoModal" placeholder="Número de Teléfono">
+        </div>
+
+        <div class="col-md-6">
+            <label for="emailModal" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="emailModal" placeholder="Correo Electrónico">
+        </div>
+
+        <div class="col-md-6">
+            <label for="direccionModal" class="form-label">Dirección</label>
+            <input type="text" class="form-control" name="direccion" id="direccionModal" placeholder="Dirección del Paciente">
+        </div>
+    </form>`;
+
+    Swal.fire({
+        title: 'Agregar Nuevo Paciente',
+        html: modalContent,
+        icon: 'info',
+        showCancelButton: true,
+        confirmButtonText: 'Guardar',
+        cancelButtonText: 'Cancelar',
+        preConfirm: () => {
+            const form = document.getElementById('frmGuardarPacientesModal');
+            const formData = new FormData(form);
+
+            return fetch("Pacientes/GuardarPacientes", {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Error al guardar el paciente');
+                    }
+                    return response.text();
+                })
+                .catch(error => {
+                    Swal.showValidationMessage(`Error: ${error}`);
+                });
+        }
+    }).then((result) => {
+        if (result.isConfirmed) {
+            ListarPacientes();
+            Swal.fire({
+                title: 'Guardado',
+                text: 'El Paciente ha sido agregado con éxito.',
+                icon: 'success'
+            });
+        }
+    });
 }
 
 function EditarPacientes(id) {

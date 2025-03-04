@@ -4,47 +4,13 @@
 
 <h1 class="mb-4 text-center">Pacientes</h1>
 
-<fieldset class="border p-4 rounded shadow-sm">
-    <legend class="w-auto px-3">Agregar Pacientes</legend>
+<div class="d-flex justify-content-end mb-4">
+    <button type="button" class="btn btn-primary" onclick="GuardarPacientes()">
+        <i class="bi bi-plus-circle"></i> Agregar Paciente
+    </button>
+</div>
 
-    <form id="frmGuardarPacientes" method="post" class="row g-3">
-        <div class="col-md-6">
-            <label for="Nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre">
-        </div>
-        <div class="col-md-6">
-            <label for="Apellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Apellido">
-        </div>
-        <div class="col-md-6">
-            <label for="FechaNacimiento" class="form-label">Fecha de Nacimiento</label>
-            <input type="date" class="form-control" name="FechaNacimiento" id="FechaNacimiento">
-        </div>
-        <div class="col-md-6">
-            <label for="Telefono" class="form-label">Teléfono</label>
-            <input type="tel" class="form-control" name="Telefono" id="Telefono" placeholder="Teléfono">
-        </div>
-        <div class="col-md-6">
-            <label for="Email" class="form-label">Email</label>
-            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
-        </div>
-        <div class="col-md-6">
-            <label for="Direccion" class="form-label">Dirección</label>
-            <input type="text" class="form-control" name="Direccion" id="Direccion" placeholder="Dirección">
-        </div>
-
-        <div class="col-12 text-end mt-3">
-            <button type="button" class="btn btn-primary me-2" onclick="GuardarPacientes()">
-                <i class="bi bi-save"></i> Agregar
-            </button>
-            <button type="button" class="btn btn-secondary" onclick="LimpiarPacientes()">
-                <i class="bi bi-eraser"></i> Limpiar
-            </button>
-        </div>
-    </form>
-</fieldset>
-
-<fieldset class="border p-4 rounded shadow-sm mt-4">
+@* <fieldset class="border p-4 rounded shadow-sm mt-4">
     <legend class="w-auto px-3">Búsqueda de Pacientes</legend>
     <form id="frmBusquedaPacientes" method="post" class="row g-3">
         <div class="col-md-6">
@@ -80,7 +46,7 @@
             </button>
         </div>
     </form>
-</fieldset>
+</fieldset> *@
 
 <input type="hidden" id="hdfOculto" value="" />
 
