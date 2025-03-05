@@ -81,7 +81,7 @@ namespace CapaDatos
         // Filtrar tratamientos según criterios
         public List<TratamientosCLS> FiltrarTratamientos(TratamientosCLS obj)
         {
-            List<TratamientosCLS> lista = new List<TratamientosCLS>();
+            List<TratamientosCLS> Lista = new List<TratamientosCLS>();
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {
@@ -92,12 +92,17 @@ namespace CapaDatos
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
-                        // Se envía DBNull.Value para los parámetros sin información relevante
-                        cmd.Parameters.AddWithValue("@PacienteId", obj.pacienteId == 0 ? DBNull.Value : (object)obj.pacienteId);
-                        cmd.Parameters.AddWithValue("@Descripcion", string.IsNullOrEmpty(obj.descripcion) ? DBNull.Value : (object)obj.descripcion);
-                        cmd.Parameters.AddWithValue("@Fecha", obj.fecha == DateTime.MinValue ? DBNull.Value : (object)obj.fecha);
-                        // Se asume que un costo igual a 0 se interpreta como "no especificado"
-                        cmd.Parameters.AddWithValue("@Costo", obj.costo == 0 ? DBNull.Value : (object)obj.costo);
+                        if (obj.pacienteId != 0)
+                            cmd.Parameters.AddWithValue("@PacienteId", obj.pacienteId);
+
+                        if (!string.IsNullOrEmpty(obj.descripcion))
+                            cmd.Parameters.AddWithValue("@Descripcion", obj.descripcion);
+
+                        if (obj.fecha != DateTime.MinValue)
+                            cmd.Parameters.AddWithValue("@Fecha", obj.fecha);
+
+                        if (obj.costo != 0)
+                            cmd.Parameters.AddWithValue("@Costo", obj.costo);
 
                         using (SqlDataReader dr = cmd.ExecuteReader())
                         {
@@ -106,10 +111,10 @@ namespace CapaDatos
                                 TratamientosCLS tratamiento = new TratamientosCLS();
                                 tratamiento.id = dr.IsDBNull(0) ? 0 : dr.GetInt32(0);
                                 tratamiento.pacienteId = dr.IsDBNull(1) ? 0 : dr.GetInt32(1);
-                                tratamiento.descripcion = dr.IsDBNull(2) ? string.Empty : dr.GetString(2);
+                                tratamiento.descripcion = dr.IsDBNull(2) ? "" : dr.GetString(2);
                                 tratamiento.fecha = dr.IsDBNull(3) ? DateTime.MinValue : dr.GetDateTime(3);
                                 tratamiento.costo = dr.IsDBNull(4) ? 0 : dr.GetDecimal(4);
-                                lista.Add(tratamiento);
+                                Lista.Add(tratamiento);
                             }
                         }
                     }
@@ -120,8 +125,9 @@ namespace CapaDatos
                     throw;
                 }
             }
-            return lista;
+            return Lista;
         }
+
 
         // Recuperar un tratamiento por su ID
         public TratamientosCLS RecuperarTratamientos(int id)
@@ -133,7 +139,7 @@ namespace CapaDatos
                 try
                 {
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("uspRecuperarTratamiento", cn))
+                    using (SqlCommand cmd = new SqlCommand("uspRecuperarTratamientos", cn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@Id", id);
@@ -169,9 +175,9 @@ namespace CapaDatos
                 try
                 {
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("uspActualizarTratamiento", cn))
+                    using (SqlCommand cmd = new SqlCommand("UPDATE Tratamientos SET PacienteId = @PacienteId, Descripcion = @Descripcion, Fecha = @Fecha, Costo = @Costo WHERE Id = @Id", cn))
                     {
-                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.CommandType = CommandType.Text;
 
                         cmd.Parameters.AddWithValue("@Id", obj.id);
                         cmd.Parameters.AddWithValue("@PacienteId", obj.pacienteId);
@@ -191,6 +197,7 @@ namespace CapaDatos
             }
             return rpta;
         }
+
 
         // Eliminar un tratamiento por su ID
         public int Eliminar(int id)
