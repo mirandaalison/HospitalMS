@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vfspo4hzlz</Fingerprint>
-      <Integrity>O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=</Integrity>
+      <Fingerprint>a94l4wmd14</Fingerprint>
+      <Integrity>zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Medicos.js'))</OriginalItemSpec>

@@ -96,17 +96,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ykdr10cokn"},{"Name":"integrity","Value":"sha256-gt63WjrODWhXngY6\u002B\u002BgWlnqwZDs0ZlZBIL8Ahkx/PGI="},{"Name":"label","Value":"_content/HospitalMS/js/generic.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7922"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gt63WjrODWhXngY6\u002B\u002BgWlnqwZDs0ZlZBIL8Ahkx/PGI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 06:19:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Medicos.a94l4wmd14.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Medicos.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a94l4wmd14"},{"Name":"integrity","Value":"sha256-zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU="},{"Name":"label","Value":"_content/HospitalMS/js/Medicos.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7680"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 09:22:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Medicos.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Medicos.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7694"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 06:19:33 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Medicos.vfspo4hzlz.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Medicos.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vfspo4hzlz"},{"Name":"integrity","Value":"sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="},{"Name":"label","Value":"_content/HospitalMS/js/Medicos.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7694"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 06:19:33 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7680"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 09:22:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HospitalMS/js/Pacientes.2x351712u7.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Pacientes.js'))</AssetFile>

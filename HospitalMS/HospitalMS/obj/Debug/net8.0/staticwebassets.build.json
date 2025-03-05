@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iY2wBGsBSDhqPRcB8DU7q8m7jdE0F1Nd+vxKQFplpKs=",
+  "Hash": "O+E9HhNuFgJPzWJ4iQsA0fWrUD6SpFTktjmZw0aaaJk=",
   "Source": "HospitalMS",
   "BasePath": "_content/HospitalMS",
   "Mode": "Default",
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vfspo4hzlz",
-      "Integrity": "O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=",
+      "Fingerprint": "a94l4wmd14",
+      "Integrity": "zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Medicos.js"
@@ -2227,6 +2227,51 @@
       ]
     },
     {
+      "Route": "js/Medicos.a94l4wmd14.js",
+      "AssetFile": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Medicos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 09:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a94l4wmd14"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Medicos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU="
+        }
+      ]
+    },
+    {
       "Route": "js/Medicos.js",
       "AssetFile": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Medicos.js",
       "Selectors": [],
@@ -2237,7 +2282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7694"
+          "Value": "7680"
         },
         {
           "Name": "Content-Type",
@@ -2245,11 +2290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\""
+          "Value": "\"zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 06:19:33 GMT"
+          "Value": "Wed, 05 Mar 2025 09:22:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2259,52 +2304,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="
-        }
-      ]
-    },
-    {
-      "Route": "js/Medicos.vfspo4hzlz.js",
-      "AssetFile": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Medicos.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7694"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 06:19:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vfspo4hzlz"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Medicos.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="
+          "Value": "sha256-zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU="
         }
       ]
     },

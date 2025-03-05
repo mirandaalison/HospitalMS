@@ -112,7 +112,7 @@ function GuardarMedicos() {
     });
 }
 
-function EditarMedicos(id) {
+function Editar(id) {
     fetchGet("Medicos/RecuperarMedicos/?id=" + id, "json", function (data) {
         const modalContent = `
         <form id="frmEditarMedicosModal" class="row g-3">
@@ -182,7 +182,7 @@ function EditarMedicos(id) {
     });
 }
 
-function EliminarMedicos(id) {
+function Eliminar(id) {
     showConfirmationModal({
         title: "¿Está seguro?",
         text: "¿Desea eliminar este Médico?",

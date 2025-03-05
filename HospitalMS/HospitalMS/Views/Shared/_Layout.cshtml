@@ -20,21 +20,35 @@
             position: fixed;
             height: 100%;
             width: 250px;
-            background-color: #333;
+            /* Degradado en tonos oscuros para un fondo sobrio */
+            background: linear-gradient(135deg, #343a40, #212529);
             left: 0;
             top: 0;
             z-index: 1000;
             transition: all 0.3s;
-            overflow-x: hidden; 
+            overflow-x: hidden;
         }
 
         .sidebar-header {
             padding: 20px;
-            color: white;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+
+            .sidebar-header h3 {
+                margin: 0;
+                font-size: 1.8rem;
+                font-weight: bold;
+                color: #ffffff;
+                display: flex;
+                align-items: center;
+            }
+
+                /* Estilo para el icono junto al título */
+                .sidebar-header h3 i {
+                    margin-right: 10px;
+                }
 
         .sidebar.collapsed {
             width: 70px;
@@ -46,17 +60,22 @@
             margin: 0;
         }
 
-        .sidebar-menu li {
-            padding: 10px 20px;
-        }
+            .sidebar-menu li {
+                padding: 10px 20px;
+            }
 
-        .sidebar-menu li a {
-            color: white;
-            text-decoration: none;
-            white-space: nowrap;
-            display: flex;
-            align-items: center;
-        }
+                .sidebar-menu li a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    white-space: nowrap;
+                    display: flex;
+                    align-items: center;
+                    transition: color 0.3s;
+                }
+
+                    .sidebar-menu li a:hover {
+                        color: #00d8ff;
+                    }
 
         .menu-text {
             transition: opacity 0.3s;
@@ -74,38 +93,45 @@
             cursor: pointer;
         }
 
-        .toggle-btn span {
-            display: block;
-            width: 25px;
-            height: 3px;
-            background-color: white;
-            margin: 5px 0;
-        }
+            .toggle-btn span {
+                display: block;
+                width: 25px;
+                height: 3px;
+                background-color: #ffffff;
+                margin: 5px 0;
+            }
 
         .main-content {
-            margin-left: 250px; 
+            margin-left: 250px;
             padding: 20px;
             transition: all 0.3s;
         }
 
-        .main-content.expanded {
-            margin-left: 70px; 
-        }
+            .main-content.expanded {
+                margin-left: 70px;
+            }
 
         .footer {
             margin-left: 250px;
             transition: all 0.3s;
         }
 
-        .footer.expanded {
-            margin-left: 70px;
+            .footer.expanded {
+                margin-left: 70px;
+            }
+
+        .bi-lg {
+            font-size: 1.5rem;
         }
     </style>
 </head>
 <body>
     <div class="sidebar">
         <div class="sidebar-header">
-            <h3 class="menu-text">HospitalMS</h3>
+            <h3>
+                <i class="bi bi-hospital bi-lg"></i>
+                <span class="menu-text">HospitalMS</span>
+            </h3>
             <div class="toggle-btn">
                 <span></span>
                 <span></span>
@@ -116,37 +142,37 @@
         <ul class="sidebar-menu">
             <li>
                 <a class="nav-link text-white" asp-area="" asp-controller="Citas" asp-action="Index">
-                    <i class="bi bi-calendar"></i>
+                    <i class="bi bi-calendar bi-lg"></i>
                     <span class="menu-text">Citas</span>
                 </a>
             </li>
             <li>
                 <a class="nav-link text-white" asp-area="" asp-controller="Especialidades" asp-action="Index">
-                    <i class="bi bi-clipboard-plus"></i>
+                    <i class="bi bi-clipboard-plus bi-lg"></i>
                     <span class="menu-text">Especialidades</span>
                 </a>
             </li>
             <li>
                 <a class="nav-link text-white" asp-area="" asp-controller="Facturacion" asp-action="Index">
-                    <i class="bi bi-receipt"></i>
+                    <i class="bi bi-receipt bi-lg"></i>
                     <span class="menu-text">Facturacion</span>
                 </a>
             </li>
             <li>
                 <a class="nav-link text-white" asp-area="" asp-controller="Medicos" asp-action="Index">
-                    <i class="bi bi-person"></i>
+                    <i class="bi bi-person bi-lg"></i>
                     <span class="menu-text">Medicos</span>
                 </a>
             </li>
             <li>
                 <a class="nav-link text-white" asp-area="" asp-controller="Pacientes" asp-action="Index">
-                    <i class="bi bi-people"></i>
+                    <i class="bi bi-people bi-lg"></i>
                     <span class="menu-text">Pacientes</span>
                 </a>
             </li>
             <li>
                 <a class="nav-link text-white" asp-area="" asp-controller="Tratamientos" asp-action="Index">
-                    <i class="bi bi-capsule"></i>
+                    <i class="bi bi-capsule bi-lg"></i>
                     <span class="menu-text">Tratamientos</span>
                 </a>
             </li>

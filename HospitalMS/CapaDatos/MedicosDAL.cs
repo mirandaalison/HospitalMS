@@ -8,7 +8,6 @@ namespace CapaDatos
 {
     public class MedicosDAL : CadenaDAL
     {
-        // Listar todos los médicos
         public List<MedicosCLS> ListarMedicos()
         {
             List<MedicosCLS> lista = new List<MedicosCLS>();
@@ -104,7 +103,7 @@ namespace CapaDatos
                 try
                 {
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("INSERT INTO Medicos (Nombre, Apellido, EspecialidadId, Identificacion, Telefono, Email) VALUES (@Nombre, @Apellido, @EspecialidadId, @Identificacion, @Telefono, @Email);", cn))
+                    using (SqlCommand cmd = new SqlCommand("INSERT INTO Medicos (Nombre, Apellido, EspecialidadId, Telefono, Email) VALUES (@Nombre, @Apellido, @EspecialidadId, @Telefono, @Email);", cn))
                     {
                         cmd.CommandType = CommandType.Text;
 
@@ -129,14 +128,14 @@ namespace CapaDatos
 
         public MedicosCLS RecuperarMedicos(int id)
         {
-            MedicosCLS medico = new MedicosCLS();
+            MedicosCLS oMedicoCLS = new MedicosCLS();
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {
                 try
                 {
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("SELECT Id, Nombre, Apellido, EspecialidadId, Identificacion, Telefono, Email FROM Medicos WHERE Id = @Id", cn))
+                    using (SqlCommand cmd = new SqlCommand("SELECT Id as id, Nombre as nombre, Apellido as apellido, EspecialidadId as especialidadId, Telefono as telefono, Email as email FROM Medicos WHERE Id = @Id", cn))
                     {
                         cmd.CommandType = CommandType.Text;
                         cmd.Parameters.AddWithValue("@Id", id);
@@ -145,12 +144,12 @@ namespace CapaDatos
                         {
                             if (dr.Read())
                             {
-                                medico.id = dr.IsDBNull(dr.GetOrdinal("Id")) ? 0 : dr.GetInt32(dr.GetOrdinal("Id"));
-                                medico.nombre = dr.IsDBNull(dr.GetOrdinal("Nombre")) ? string.Empty : dr.GetString(dr.GetOrdinal("Nombre"));
-                                medico.apellido = dr.IsDBNull(dr.GetOrdinal("Apellido")) ? string.Empty : dr.GetString(dr.GetOrdinal("Apellido"));
-                                medico.especialidadId = dr.IsDBNull(dr.GetOrdinal("EspecialidadId")) ? 0 : dr.GetInt32(dr.GetOrdinal("EspecialidadId"));
-                                medico.telefono = dr.IsDBNull(dr.GetOrdinal("Telefono")) ? string.Empty : dr.GetString(dr.GetOrdinal("Telefono"));
-                                medico.email = dr.IsDBNull(dr.GetOrdinal("Email")) ? string.Empty : dr.GetString(dr.GetOrdinal("Email"));
+                                oMedicoCLS.id = dr.IsDBNull(dr.GetOrdinal("Id")) ? 0 : dr.GetInt32(dr.GetOrdinal("Id"));
+                                oMedicoCLS.nombre = dr.IsDBNull(dr.GetOrdinal("Nombre")) ? string.Empty : dr.GetString(dr.GetOrdinal("Nombre"));
+                                oMedicoCLS.apellido = dr.IsDBNull(dr.GetOrdinal("Apellido")) ? string.Empty : dr.GetString(dr.GetOrdinal("Apellido"));
+                                oMedicoCLS.especialidadId = dr.IsDBNull(dr.GetOrdinal("EspecialidadId")) ? 0 : dr.GetInt32(dr.GetOrdinal("EspecialidadId"));
+                                oMedicoCLS.telefono = dr.IsDBNull(dr.GetOrdinal("Telefono")) ? string.Empty : dr.GetString(dr.GetOrdinal("Telefono"));
+                                oMedicoCLS.email = dr.IsDBNull(dr.GetOrdinal("Email")) ? string.Empty : dr.GetString(dr.GetOrdinal("Email"));
                             }
                         }
                     }
@@ -161,7 +160,7 @@ namespace CapaDatos
                     throw;
                 }
             }
-            return medico;
+            return oMedicoCLS;
         }
 
         public int GuardarCambiosMedicos(MedicosCLS obj)
@@ -172,7 +171,7 @@ namespace CapaDatos
                 try
                 {
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("UPDATE Medicos SET Nombre = @Nombre, Apellido = @Apellido, EspecialidadId = @EspecialidadId, Identificacion = @Identificacion, Telefono = @Telefono, Email = @Email WHERE Id = @Id", cn))
+                    using (SqlCommand cmd = new SqlCommand("UPDATE Medicos SET Nombre = @Nombre, Apellido = @Apellido, EspecialidadId = @EspecialidadId, Telefono = @Telefono, Email = @Email WHERE Id = @Id", cn))
                     {
                         cmd.CommandType = CommandType.Text;
 

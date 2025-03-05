@@ -577,6 +577,51 @@
       ]
     },
     {
+      "Route": "js/Medicos.a94l4wmd14.js",
+      "AssetFile": "js/Medicos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 09:22:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a94l4wmd14"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Medicos.js"
+        }
+      ]
+    },
+    {
       "Route": "js/Medicos.js",
       "AssetFile": "js/Medicos.js",
       "Selectors": [],
@@ -591,7 +636,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7694"
+          "Value": "7680"
         },
         {
           "Name": "Content-Type",
@@ -599,62 +644,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\""
+          "Value": "\"zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 06:19:33 GMT"
+          "Value": "Wed, 05 Mar 2025 09:22:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="
-        }
-      ]
-    },
-    {
-      "Route": "js/Medicos.vfspo4hzlz.js",
-      "AssetFile": "js/Medicos.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7694"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 06:19:33 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vfspo4hzlz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-O9S3dkGI2y10O2JxY9XW6uyorAcFP4PIk6NTS8ahGTw="
-        },
-        {
-          "Name": "label",
-          "Value": "js/Medicos.js"
+          "Value": "sha256-zqwvTZuyKgduQJht1JW2aEjdGQugkGbgKlG5T8ABgqU="
         }
       ]
     },
