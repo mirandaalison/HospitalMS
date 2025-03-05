@@ -997,3 +997,4 @@ C:\Users\Alexander\Desktop\Universidad\HospitalMS\HospitalMS\HospitalMS\obj\Debu
 C:\Users\Alexander\Desktop\Universidad\HospitalMS\HospitalMS\HospitalMS\obj\Debug\net8.0\HospitalMS.pdb
 C:\Users\Alexander\Desktop\Universidad\HospitalMS\HospitalMS\HospitalMS\obj\Debug\net8.0\HospitalMS.genruntimeconfig.cache
 C:\Users\Alexander\Desktop\Universidad\HospitalMS\HospitalMS\HospitalMS\obj\Debug\net8.0\ref\HospitalMS.dll
+C:\Users\User\Desktop\4to\Web\1 ProyectoParcial3Hospital\HospitalMS\HospitalMS\HospitalMS\bin\Debug\net8.0\FluentFTP.dll
