@@ -1,4 +1,4 @@
-# HospitalMS
+# HospitalMS http://hospitalms.somee.com
 Sistema de Gestión de una Base de Datos de un Hospital
 Sistema completo para la Gestión Hospitalaria desarrollado en ASP.NET Core MVC con arquitectura por capas, modelo MVC (model - view - controller). Este proyecto permite administrar pacientes, médicos, citas médicas, tratamientos, especialidades y facturación.
 
