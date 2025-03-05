@@ -119,7 +119,7 @@ function GuardarPacientes() {
     });
 }
 
-function EditarPacientes(id) {
+function Editar(id) {
     fetchGet("Pacientes/RecuperarPacientes/?id=" + id, "json", function (data) {
         const modalContent = `
         <form id="frmEditarPacientesModal" class="row g-3">
@@ -194,7 +194,7 @@ function EditarPacientes(id) {
     });
 }
 
-function EliminarPacientes(id) {
+function Eliminar(id) {
     showConfirmationModal({
         title: "¿Está seguro?",
         text: "¿Desea eliminar este Paciente?",

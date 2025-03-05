@@ -7,36 +7,24 @@
       "RelativeMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\tratamientosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capanegocio\\tratamientosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\tratamientosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\wwwroot\\js\\tratamientos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\wwwroot\\js\\tratamientos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\views\\tratamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\views\\tratamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capadatos\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capadatos\\medicosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\medicosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\views\\especialidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\views\\especialidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\controllers\\especialidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\controllers\\especialidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\wwwroot\\js\\especialidades.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\wwwroot\\js\\especialidades.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\wwwroot\\js\\pacientes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -47,32 +35,48 @@
       "RelativeMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\pacientesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capaentidad\\tratamientoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\tratamientoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capanegocio\\especialidadesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\especialidadesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capadatos\\especialidadesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\especialidadesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capaentidad\\especialidadescls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\especialidadescls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capadatos\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63AAAE94-8A0B-4A37-AFF4-126E5FCE296B}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\pacientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capaentidad\\pacientescls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\pacientescls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capaentidad\\medicoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\medicoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\views\\tratamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\views\\tratamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\views\\medicos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\views\\medicos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capaentidad\\tratamientoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13911093-D659-48F0-98D4-7C6E900B3F6B}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\tratamientoscls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capanegocio\\medicosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\medicosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\wwwroot\\js\\tratamientos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\wwwroot\\js\\tratamientos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\wwwroot\\js\\medicos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\wwwroot\\js\\medicos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\capanegocio\\tratamientosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E20F3ADF-4779-43ED-BAD8-EC137687392E}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\tratamientosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|c:\\users\\alexander\\desktop\\universidad\\hospitalms\\hospitalms\\hospitalms\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5E136553-2169-41CA-B726-A20B05F1EDBD}|HospitalMS\\HospitalMS.csproj|solutionrelative:hospitalms\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +106,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Views\\Especialidades\\Index.cshtml",
+              "RelativeDocumentMoniker": "HospitalMS\\Views\\Especialidades\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Views\\Especialidades\\Index.cshtml",
+              "RelativeToolTip": "HospitalMS\\Views\\Especialidades\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T00:35:15.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EspecialidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\EspecialidadesController.cs",
+              "RelativeDocumentMoniker": "HospitalMS\\Controllers\\EspecialidadesController.cs",
+              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\EspecialidadesController.cs",
+              "RelativeToolTip": "HospitalMS\\Controllers\\EspecialidadesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:35:06.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Especialidades.js",
+              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Especialidades.js",
+              "RelativeDocumentMoniker": "HospitalMS\\wwwroot\\js\\Especialidades.js",
+              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Especialidades.js",
+              "RelativeToolTip": "HospitalMS\\wwwroot\\js\\Especialidades.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T00:35:04.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EspecialidadesBL.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\EspecialidadesBL.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\EspecialidadesBL.cs",
+              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\EspecialidadesBL.cs",
+              "RelativeToolTip": "CapaNegocio\\EspecialidadesBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:35:00.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EspecialidadesDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\EspecialidadesDAL.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\EspecialidadesDAL.cs",
+              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\EspecialidadesDAL.cs",
+              "RelativeToolTip": "CapaDatos\\EspecialidadesDAL.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAuwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:34:56.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EspecialidadesCLS.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\EspecialidadesCLS.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\EspecialidadesCLS.cs",
+              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\EspecialidadesCLS.cs",
+              "RelativeToolTip": "CapaEntidad\\EspecialidadesCLS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:34:51.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Views\\Tratamientos\\Index.cshtml",
               "RelativeDocumentMoniker": "HospitalMS\\Views\\Tratamientos\\Index.cshtml",
@@ -115,39 +197,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "TratamientosController.cs",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\TratamientosController.cs",
               "RelativeDocumentMoniker": "HospitalMS\\Controllers\\TratamientosController.cs",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\TratamientosController.cs",
               "RelativeToolTip": "HospitalMS\\Controllers\\TratamientosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:10:39.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "Tratamientos.js",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Tratamientos.js",
               "RelativeDocumentMoniker": "HospitalMS\\wwwroot\\js\\Tratamientos.js",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Tratamientos.js",
               "RelativeToolTip": "HospitalMS\\wwwroot\\js\\Tratamientos.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAowKoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-04T22:10:36.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "TratamientosBL.cs",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\TratamientosBL.cs",
               "RelativeDocumentMoniker": "CapaNegocio\\TratamientosBL.cs",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\TratamientosBL.cs",
               "RelativeToolTip": "CapaNegocio\\TratamientosBL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:10:22.909Z",
               "EditorCaption": ""
@@ -160,20 +242,20 @@
               "RelativeDocumentMoniker": "CapaDatos\\TratamientosDAL.cs",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\TratamientosDAL.cs",
               "RelativeToolTip": "CapaDatos\\TratamientosDAL.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAkwGUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAkwIwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:10:21.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TratamientosCLS.cs",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\TratamientosCLS.cs",
               "RelativeDocumentMoniker": "CapaEntidad\\TratamientosCLS.cs",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\TratamientosCLS.cs",
               "RelativeToolTip": "CapaEntidad\\TratamientosCLS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:10:16.215Z",
               "EditorCaption": ""
@@ -182,69 +264,82 @@
         },
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
+              "Title": "generic.js",
+              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\generic.js",
+              "RelativeDocumentMoniker": "HospitalMS\\wwwroot\\js\\generic.js",
+              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\generic.js",
+              "RelativeToolTip": "HospitalMS\\wwwroot\\js\\generic.js",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAwK0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-04T23:48:24.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Views\\Pacientes\\Index.cshtml",
               "RelativeDocumentMoniker": "HospitalMS\\Views\\Pacientes\\Index.cshtml",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Views\\Pacientes\\Index.cshtml",
               "RelativeToolTip": "HospitalMS\\Views\\Pacientes\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T23:14:56.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "PacientesController.cs",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\PacientesController.cs",
               "RelativeDocumentMoniker": "HospitalMS\\Controllers\\PacientesController.cs",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\PacientesController.cs",
               "RelativeToolTip": "HospitalMS\\Controllers\\PacientesController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwDkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T23:14:49.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Pacientes.js",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Pacientes.js",
               "RelativeDocumentMoniker": "HospitalMS\\wwwroot\\js\\Pacientes.js",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Pacientes.js",
               "RelativeToolTip": "HospitalMS\\wwwroot\\js\\Pacientes.js",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAQwN0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-04T23:14:42.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "PacientesBL.cs",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\PacientesBL.cs",
               "RelativeDocumentMoniker": "CapaNegocio\\PacientesBL.cs",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\PacientesBL.cs",
               "RelativeToolTip": "CapaNegocio\\PacientesBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T23:14:34.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "PacientesDAL.cs",
               "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\PacientesDAL.cs",
               "RelativeDocumentMoniker": "CapaDatos\\PacientesDAL.cs",
               "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\PacientesDAL.cs",
               "RelativeToolTip": "CapaDatos\\PacientesDAL.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAmwMIAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAowOQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T23:01:10.793Z",
               "EditorCaption": ""
@@ -260,84 +355,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T23:14:18.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Views\\Medicos\\Index.cshtml",
-              "RelativeDocumentMoniker": "HospitalMS\\Views\\Medicos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Views\\Medicos\\Index.cshtml",
-              "RelativeToolTip": "HospitalMS\\Views\\Medicos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T22:08:42.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MedicosController.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\MedicosController.cs",
-              "RelativeDocumentMoniker": "HospitalMS\\Controllers\\MedicosController.cs",
-              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\Controllers\\MedicosController.cs",
-              "RelativeToolTip": "HospitalMS\\Controllers\\MedicosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T22:08:16.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Medicos.js",
-              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Medicos.js",
-              "RelativeDocumentMoniker": "HospitalMS\\wwwroot\\js\\Medicos.js",
-              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\wwwroot\\js\\Medicos.js",
-              "RelativeToolTip": "HospitalMS\\wwwroot\\js\\Medicos.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-04T22:08:02.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MedicosBL.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\MedicosBL.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\MedicosBL.cs",
-              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\MedicosBL.cs",
-              "RelativeToolTip": "CapaNegocio\\MedicosBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T22:06:54.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MedicosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\MedicosDAL.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\MedicosDAL.cs",
-              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\MedicosDAL.cs",
-              "RelativeToolTip": "CapaDatos\\MedicosDAL.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAYwGoAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T22:06:41.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MedicosCLS.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\MedicosCLS.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\MedicosCLS.cs",
-              "ToolTip": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\MedicosCLS.cs",
-              "RelativeToolTip": "CapaEntidad\\MedicosCLS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T22:06:36.916Z",
               "EditorCaption": ""
             }
           ]

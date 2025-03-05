@@ -34,10 +34,10 @@ namespace CapaNegocio
             return obj.GuardarCambiosTratamientos(objTratamiento);
         }
 
-        public int EliminarTratamientos(int id)
+        public int Eliminar(int id)
         {
             TratamientosDAL obj = new TratamientosDAL();
-            return obj.EliminarTratamientos(id);
+            return obj.Eliminar(id);
         }
     }
 }

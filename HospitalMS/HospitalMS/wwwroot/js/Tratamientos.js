@@ -103,7 +103,7 @@ function GuardarTratamientos() {
     });
 }
 
-function EditarTratamientos(id) {
+function Editar(id) {
     fetchGet("Tratamientos/RecuperarTratamientos/?id=" + id, "json", function (data) {
         const modalContent = `
         <form id="frmEditarTratamientosModal" class="row g-3">
@@ -168,7 +168,7 @@ function EditarTratamientos(id) {
     });
 }
 
-function EliminarTratamientos(id) {
+function Eliminar(id) {
     showConfirmationModal({
         title: "¿Está seguro?",
         text: "¿Desea eliminar este Tratamiento?",

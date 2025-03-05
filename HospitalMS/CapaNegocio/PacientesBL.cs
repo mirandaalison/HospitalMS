@@ -40,10 +40,10 @@ namespace CapaNegocio
             return obj.GuardarCambiosPacientes(objPacientes);
         }
 
-        public int EliminarPacientes(int id)
+        public int Eliminar(int id)
         {
             PacientesDAL objDAL = new PacientesDAL();
-            return objDAL.EliminarPacientes(id);
+            return objDAL.Eliminar(id);
         }
     }
 }

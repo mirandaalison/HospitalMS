@@ -193,7 +193,7 @@ namespace CapaDatos
         }
 
         // Eliminar un tratamiento por su ID
-        public int EliminarTratamientos(int id)
+        public int Eliminar(int id)
         {
             int rpta = 0;
             using (SqlConnection cn = new SqlConnection(cadena))

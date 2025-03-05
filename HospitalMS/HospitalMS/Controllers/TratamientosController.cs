@@ -51,10 +51,10 @@ namespace HospitalMS.Controllers
             return obj.GuardarCambiosTratamientos(objTratamientos);
         }
 
-        public int EliminarTratamientos(int id)
+        public int Eliminar(int id)
         {
             TratamientosDAL objDAL = new TratamientosDAL();
-            return objDAL.EliminarTratamientos(id);
+            return objDAL.Eliminar(id);
         }
     }
 }
