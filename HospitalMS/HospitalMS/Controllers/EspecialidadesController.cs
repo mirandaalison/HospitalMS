@@ -16,7 +16,6 @@ namespace HospitalMS.Controllers
             EspecialidadesDAL obj = new EspecialidadesDAL();
             var resultado = obj.ListarEspecialidades();
 
-            // Depuración: inspeccionar las propiedades
             foreach (var especialidad in resultado)
             {
                 Console.WriteLine($"id: {especialidad.id}, nombre: {especialidad.nombre}");

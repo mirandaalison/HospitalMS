@@ -8,7 +8,6 @@ namespace CapaDatos
 {
     public class EspecialidadesDAL : CadenaDAL
     {
-        // Listar todas las especialidades
         public List<EspecialidadesCLS> ListarEspecialidades()
         {
             List<EspecialidadesCLS> lista = new List<EspecialidadesCLS>();
@@ -44,7 +43,6 @@ namespace CapaDatos
             return lista;
         }
 
-        // Filtrar especialidades según criterios
         public List<EspecialidadesCLS> FiltrarEspecialidades(EspecialidadesCLS obj)
         {
             List<EspecialidadesCLS> lista = new List<EspecialidadesCLS>();
@@ -81,7 +79,6 @@ namespace CapaDatos
             return lista;
         }
 
-        // Guardar una nueva especialidad
         public int GuardarEspecialidades(EspecialidadesCLS obj)
         {
             int rpta = 0;
@@ -109,7 +106,6 @@ namespace CapaDatos
             return rpta;
         }
 
-        // Recuperar una especialidad por su ID
         public EspecialidadesCLS RecuperarEspecialidades(int id)
         {
             EspecialidadesCLS objEspecialidad = new EspecialidadesCLS();
@@ -144,7 +140,6 @@ namespace CapaDatos
             return objEspecialidad;
         }
 
-        // Guardar cambios en una especialidad existente
         public int GuardarCambiosEspecialidades(EspecialidadesCLS obj)
         {
             int rpta = 0;
@@ -173,7 +168,6 @@ namespace CapaDatos
             return rpta;
         }
 
-        // Eliminar una especialidad por su ID
         public int EliminarEspecialidades(int id)
         {
             int rpta = 0;

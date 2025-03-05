@@ -131,7 +131,7 @@ function BuscarCitas() {
     let forma = document.getElementById("frmBusquedaCitas");
     let frm = new FormData(forma);
     fetchPost("Citas/FiltrarCitas", "json", frm, function (res) {
-        // Format the data the same way as in ListarCitas
+
         for (let i = 0; i < res.length; i++) {
             res[i].pacienteCompleto = res[i].nombrePaciente + " " + res[i].apellidoPaciente;
             res[i].medicoCompleto = res[i].nombreMedico + " " + res[i].apellidoMedico;
@@ -144,7 +144,6 @@ function BuscarCitas() {
             }
         }
 
-        // Using the same configuration as in ListarCitas
         document.getElementById("divContenedorTabla").innerHTML = generarTablaCitas(res);
     });
 }

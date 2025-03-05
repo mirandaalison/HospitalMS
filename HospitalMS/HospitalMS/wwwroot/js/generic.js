@@ -41,7 +41,7 @@ async function fetchGet(url, tipoRespuesta, callback) {
 
 async function fetchPost(url, tipoRespuesta, frm, callback) {
     try {
-        // Simplified URL construction that doesn't rely on hdfOculto
+     
         let urlCompleta = `${window.location.origin}/${url}`;
 
         console.log("Sending POST request to:", urlCompleta);
@@ -145,9 +145,8 @@ function generarTabla(res) {
 
         for (let j = 0; j < propiedades.length; j++) {
             propiedadActual = propiedades[j];
-            // Formatear la fecha si es necesario
+
             if (propiedadActual === "fechaNacimiento" && obj[propiedadActual]) {
-                // Convertir la fecha a formato local
                 let fecha = new Date(obj[propiedadActual]);
                 contenido += "<td>" + fecha.toLocaleDateString() + "</td>";
             } else {

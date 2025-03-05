@@ -48,7 +48,7 @@ namespace CapaDatos
             return lista;
         }
 
-        // Filtrar médicos según criterios de búsqueda
+
         public List<MedicosCLS> FiltrarMedicos(MedicosCLS obj)
         {
             List<MedicosCLS> lista = new List<MedicosCLS>();
@@ -95,7 +95,7 @@ namespace CapaDatos
             return lista;
         }
 
-        // Guardar un nuevo médico
+
         public int GuardarMedicos(MedicosCLS obj)
         {
             int rpta = 0;
@@ -104,7 +104,6 @@ namespace CapaDatos
                 try
                 {
                     cn.Open();
-                    // Se usa comando tipo Text; alternativamente, se puede llamar a un procedimiento almacenado
                     using (SqlCommand cmd = new SqlCommand("INSERT INTO Medicos (Nombre, Apellido, EspecialidadId, Identificacion, Telefono, Email) VALUES (@Nombre, @Apellido, @EspecialidadId, @Identificacion, @Telefono, @Email);", cn))
                     {
                         cmd.CommandType = CommandType.Text;
@@ -128,7 +127,6 @@ namespace CapaDatos
             return rpta;
         }
 
-        // Recuperar un médico por su ID
         public MedicosCLS RecuperarMedicos(int id)
         {
             MedicosCLS medico = new MedicosCLS();
@@ -166,7 +164,6 @@ namespace CapaDatos
             return medico;
         }
 
-        // Guardar cambios de un médico existente
         public int GuardarCambiosMedicos(MedicosCLS obj)
         {
             int rpta = 0;
@@ -199,7 +196,6 @@ namespace CapaDatos
             return rpta;
         }
 
-        // Eliminar un médico por su ID
         public int EliminarMedicos(int id)
         {
             int rpta = 0;

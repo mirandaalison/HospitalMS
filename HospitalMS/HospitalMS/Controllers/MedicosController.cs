@@ -16,7 +16,6 @@ namespace HospitalMS.Controllers
             MedicosDAL obj = new MedicosDAL();
             var resultado = obj.ListarMedicos();
 
-            // Depuración: inspeccionar las propiedades
             foreach (var medico in resultado)
             {
                 Console.WriteLine($"Id: {medico.id}, Nombre: {medico.nombre}");

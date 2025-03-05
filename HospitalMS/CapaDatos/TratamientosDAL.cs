@@ -8,7 +8,6 @@ namespace CapaDatos
 {
     public class TratamientosDAL : CadenaDAL
     {
-        // Listar todos los tratamientos
         public List<TratamientosCLS> ListarTratamientos()
         {
             List<TratamientosCLS> lista = new List<TratamientosCLS>();
@@ -45,7 +44,6 @@ namespace CapaDatos
             return lista;
         }
 
-        // Guardar un nuevo tratamiento
         public int GuardarTratamientos(TratamientosCLS obj)
         {
             int rpta = 0;
@@ -54,14 +52,12 @@ namespace CapaDatos
                 try
                 {
                     cn.Open();
-                    // Se asume que se utiliza un procedimiento almacenado para guardar
                     using (SqlCommand cmd = new SqlCommand("uspAgregarTratamientos", cn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
                         cmd.Parameters.AddWithValue("@PacienteId", obj.pacienteId);
                         cmd.Parameters.AddWithValue("@Descripcion", obj.descripcion ?? string.Empty);
-                        // En caso de que la fecha no sea válida, se envía DBNull.Value
                         cmd.Parameters.AddWithValue("@Fecha", obj.fecha == DateTime.MinValue ? DBNull.Value : (object)obj.fecha);
                         cmd.Parameters.AddWithValue("@Costo", obj.costo);
 
@@ -78,7 +74,6 @@ namespace CapaDatos
             return rpta;
         }
 
-        // Filtrar tratamientos según criterios
         public List<TratamientosCLS> FiltrarTratamientos(TratamientosCLS obj)
         {
             List<TratamientosCLS> Lista = new List<TratamientosCLS>();
@@ -129,7 +124,6 @@ namespace CapaDatos
         }
 
 
-        // Recuperar un tratamiento por su ID
         public TratamientosCLS RecuperarTratamientos(int id)
         {
             TratamientosCLS tratamiento = new TratamientosCLS();
@@ -166,7 +160,6 @@ namespace CapaDatos
             return tratamiento;
         }
 
-        // Guardar cambios en un tratamiento existente
         public int GuardarCambiosTratamientos(TratamientosCLS obj)
         {
             int rpta = 0;
@@ -199,7 +192,6 @@ namespace CapaDatos
         }
 
 
-        // Eliminar un tratamiento por su ID
         public int Eliminar(int id)
         {
             int rpta = 0;

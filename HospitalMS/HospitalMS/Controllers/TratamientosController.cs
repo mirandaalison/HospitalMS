@@ -16,7 +16,6 @@ namespace HospitalMS.Controllers
             TratamientosDAL obj = new TratamientosDAL();
             var resultado = obj.ListarTratamientos();
 
-            // Depuración: inspeccionar las propiedades
             foreach (var tratamiento in resultado)
             {
                 Console.WriteLine($"id: {tratamiento.id}, pacienteId: {tratamiento.pacienteId}, descripcion: {tratamiento.descripcion}");
@@ -25,8 +24,6 @@ namespace HospitalMS.Controllers
             return resultado;
         }
 
-        // Se asume la existencia de un método similar para filtrar tratamientos,
-        // siguiendo el patrón de la clase de Pacientes.
         public List<TratamientosCLS> FiltrarTratamientos(TratamientosCLS objTratamientos)
         {
             TratamientosDAL obj = new TratamientosDAL();
