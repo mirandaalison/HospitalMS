@@ -5,39 +5,57 @@ using System.Text;
 using System.Threading.Tasks;
 using CapaEntidad;
 using CapaDatos;
+
 namespace CapaNegocio
 {
-    public class MedicosBL
+    public class FacturacionBL
     {
-        public List<MedicosCLS> ListarMedicos()
+        public List<FacturacionCLS> ListarFacturas()
         {
-            MedicosDAL obj = new MedicosDAL();
-            return obj.ListarMedicos();
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.ListarFacturas();
         }
-        public List<MedicosCLS> FiltrarMedicos(MedicosCLS objMedicos)
+
+        public List<FacturacionCLS> FiltrarFacturas(FacturacionCLS objFacturacion)
         {
-            MedicosDAL obj = new MedicosDAL();
-            return obj.FiltrarMedicos(objMedicos);
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.FiltrarFacturas(objFacturacion);
         }
-        public int GuardarMedicos(MedicosCLS objMedicos)
+
+        public int GuardarFactura(FacturacionCLS objFacturacion)
         {
-            MedicosDAL obj = new MedicosDAL();
-            return obj.GuardarMedicos(objMedicos);
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.GuardarFactura(objFacturacion);
         }
-        public MedicosCLS RecuperarMedicos(int id)
+
+        public List<PacientesCLS> ListarPacientesDropdown()
         {
-            MedicosDAL obj = new MedicosDAL();
-            return obj.RecuperarMedicos(id);
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.ListarPacientesDropdown();
         }
-        public int GuardarCambiosMedicos(MedicosCLS objMedicos)
+
+        public List<FacturacionCLS> ObtenerTotalTratamientosPorPaciente()
         {
-            MedicosDAL obj = new MedicosDAL();
-            return obj.GuardarCambiosMedicos(objMedicos);
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.ObtenerTotalTratamientosPorPaciente();
         }
-        public int EliminarMedicos(int id)
+
+        public FacturacionCLS RecuperarFactura(int id)
         {
-            MedicosDAL objDAL = new MedicosDAL();
-            return objDAL.EliminarMedicos(id);
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.RecuperarFactura(id);
+        }
+
+        public int GuardarCambiosFactura(FacturacionCLS objFacturacion)
+        {
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.GuardarCambiosFactura(objFacturacion);
+        }
+
+        public int Eliminar(int id)
+        {
+            FacturacionDAL obj = new FacturacionDAL();
+            return obj.Eliminar(id);
         }
     }
 }

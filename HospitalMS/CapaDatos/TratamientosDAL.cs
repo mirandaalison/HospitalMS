@@ -55,7 +55,7 @@ namespace CapaDatos
                 {
                     cn.Open();
                     // Se asume que se utiliza un procedimiento almacenado para guardar
-                    using (SqlCommand cmd = new SqlCommand("uspGuardarTratamiento", cn))
+                    using (SqlCommand cmd = new SqlCommand("uspAgregarTratamientos", cn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
