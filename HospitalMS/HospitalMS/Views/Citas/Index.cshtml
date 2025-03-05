@@ -1,7 +1,74 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Gestión de Citas";
 }
 
-<h1>Citas</h1>
+<h1 class="mb-4 text-center">Citas Médicas</h1>
 
+<div class="d-flex justify-content-end mb-4">
+    <button type="button" class="btn btn-primary" onclick="GuardarCitas()">
+        <i class="bi bi-plus-circle"></i> Programar Nueva Cita
+    </button>
+</div>
+
+<fieldset class="border p-4 rounded shadow-sm mt-4">
+    <legend class="w-auto px-3">Búsqueda de Citas</legend>
+    <form id="frmBusquedaCitas" method="post" class="row g-3">
+        <div class="col-md-6">
+            <label for="buscarPacienteId" class="form-label">Paciente</label>
+            <select class="form-select" id="buscarPacienteId" name="pacienteId">
+                <option value="">-- Seleccione Paciente --</option>
+                <!-- Se llenará con JavaScript -->
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="buscarMedicoId" class="form-label">Médico</label>
+            <select class="form-select" id="buscarMedicoId" name="medicoId">
+                <option value="">-- Seleccione Médico --</option>
+                <!-- Se llenará con JavaScript -->
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="buscarFechaHora" class="form-label">Fecha</label>
+            <input type="date" class="form-control" name="fechaHora" id="buscarFechaHora">
+        </div>
+        <div class="col-md-6">
+            <label for="buscarEstado" class="form-label">Estado</label>
+            <select class="form-select" id="buscarEstado" name="estado">
+                <option value="">-- Todos --</option>
+                <option value="Pendiente">Pendiente</option>
+                <option value="Confirmada">Confirmada</option>
+                <option value="Cancelada">Cancelada</option>
+                <option value="Atendida">Atendida</option>
+            </select>
+        </div>
+        <div class="col-12 text-end mt-3">
+            <button type="button" class="btn btn-primary me-2" onclick="BuscarCitas()">
+                <i class="bi bi-search"></i> Buscar
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="LimpiarBusquedaCitas()">
+                <i class="bi bi-eraser"></i> Limpiar
+            </button>
+        </div>
+    </form>
+</fieldset>
+
+<input type="hidden" id="hdfOculto" value="" />
+
+<div id="divTable" class="mt-4">
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Referencias -->
+    <script src="~/js/generic.js"></script>
+    <script src="~/js/Citas.js"></script>
+}

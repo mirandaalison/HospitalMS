@@ -41,13 +41,20 @@ async function fetchGet(url, tipoRespuesta, callback) {
 
 async function fetchPost(url, tipoRespuesta, frm, callback) {
     try {
-        let raiz = document.getElementById("hdfOculto").value;
-        let urlCompleta = `${window.location.protocol}//${window.location.host}/${url}`;
+        // Simplified URL construction that doesn't rely on hdfOculto
+        let urlCompleta = `${window.location.origin}/${url}`;
+
+        console.log("Sending POST request to:", urlCompleta);
+        console.log("Form data:", frm);
 
         let res = await fetch(urlCompleta, {
             method: "POST",
             body: frm
         });
+
+        if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+        }
 
         if (tipoRespuesta === "json") {
             res = await res.json();
@@ -57,7 +64,8 @@ async function fetchPost(url, tipoRespuesta, frm, callback) {
 
         callback(res);
     } catch (e) {
-        alert("Ocurrio un problema en POST");
+        console.error("Error in POST request:", e);
+        alert("Ocurrió un problema: " + e.message);
     }
 }
 
