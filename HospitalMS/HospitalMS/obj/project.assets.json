@@ -6180,23 +6180,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexander\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
+      "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
       "projectName": "HospitalMS",
-      "projectPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\HospitalMS\\obj\\",
+      "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
+      "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6211,11 +6211,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj"
+            "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
+              "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj"
             },
-            "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\4to\\Web\\1 ProyectoParcial3Hospital\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj"
+            "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj"
             }
           }
         }
@@ -6230,7 +6230,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -6272,7 +6272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,7 +1,7 @@
 ﻿using CapaDatos;
 using CapaEntidad;
-using CapaNegocio;
 using Microsoft.AspNetCore.Mvc;
+
 namespace HospitalMS.Controllers
 {
     public class FacturacionController : Controller
@@ -12,8 +12,9 @@ namespace HospitalMS.Controllers
         }
         public List<FacturacionCLS> ListarFacturas()
         {
-            FacturacionBL obj = new FacturacionBL();
+            FacturacionDAL obj = new FacturacionDAL();
             var resultado = obj.ListarFacturas();
+
             foreach (var factura in resultado)
             {
                 Console.WriteLine($"id: {factura.id}, pacienteId: {factura.pacienteId}, monto: {factura.monto}");
@@ -22,33 +23,34 @@ namespace HospitalMS.Controllers
         }
         public List<FacturacionCLS> FiltrarFacturas(FacturacionCLS objFacturacion)
         {
-            FacturacionBL obj = new FacturacionBL();
+            FacturacionDAL obj = new FacturacionDAL();
             return obj.FiltrarFacturas(objFacturacion);
         }
         public int GuardarFactura(FacturacionCLS objFacturacion)
         {
-            FacturacionBL obj = new FacturacionBL();
+            FacturacionDAL obj = new FacturacionDAL();
             return obj.GuardarFactura(objFacturacion);
         }
         public List<PacientesCLS> ListarPacientesDropdown()
         {
-            FacturacionBL obj = new FacturacionBL();
+            FacturacionDAL obj = new FacturacionDAL();
             return obj.ListarPacientesDropdown();
         }
         public List<FacturacionCLS> ObtenerTotalTratamientosPorPaciente()
         {
-            FacturacionBL obj = new FacturacionBL();
+            FacturacionDAL obj = new FacturacionDAL();
             return obj.ObtenerTotalTratamientosPorPaciente();
         }
         public FacturacionCLS RecuperarFactura(int id)
         {
-            FacturacionBL obj = new FacturacionBL();
+            FacturacionDAL obj = new FacturacionDAL();
             return obj.RecuperarFactura(id);
         }
         public int GuardarCambiosFactura(FacturacionCLS objFacturacion)
         {
-            FacturacionBL obj = new FacturacionBL();
+            FacturacionDAL obj = new FacturacionDAL();
             return obj.GuardarCambiosFactura(objFacturacion);
         }
     }
 }
+

@@ -196,7 +196,7 @@ namespace CapaDatos
             return rpta;
         }
 
-        public int EliminarMedicos(int id)
+        public int Eliminar(int id)
         {
             int rpta = 0;
             using (SqlConnection cn = new SqlConnection(cadena))

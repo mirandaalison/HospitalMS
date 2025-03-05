@@ -48,10 +48,10 @@ namespace HospitalMS.Controllers
             return obj.GuardarCambiosMedicos(objMedicos);
         }
 
-        public int EliminarMedicos(int id)
+        public int Eliminar(int id)
         {
             MedicosDAL objDAL = new MedicosDAL();
-            return objDAL.EliminarMedicos(id);
+            return objDAL.Eliminar(id);
         }
     }
 }
