@@ -773,11 +773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
+      "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
       "projectName": "CapaDatos",
-      "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
+      "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
       "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\obj\\",
+      "outputPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -798,8 +798,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
-              "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj"
+            "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
+              "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj"
             }
           }
         }

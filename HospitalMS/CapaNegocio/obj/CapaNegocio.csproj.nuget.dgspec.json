@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {}
+    "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
+    "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
+        "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\obj\\",
+        "outputPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
-                "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj"
+              "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
+    "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
+        "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\obj\\",
+        "outputPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {
+    "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj",
         "projectName": "CapaNegocio",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj",
+        "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\obj\\",
+        "outputPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -194,11 +194,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj"
+              "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj"
               },
-              "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
-                "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj"
+              "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj"
               }
             }
           }

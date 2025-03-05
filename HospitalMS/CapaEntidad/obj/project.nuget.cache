@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iQUPbB9b25c=",
+  "dgSpecHash": "V9+ogSThkNY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
+  "projectFilePath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaEntidad\\CapaEntidad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.2\\microsoft.extensions.configuration.9.0.2.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.2\\microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",

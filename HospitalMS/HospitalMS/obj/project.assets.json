@@ -6186,11 +6186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
+      "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
       "projectName": "HospitalMS",
-      "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
+      "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\HospitalMS.csproj",
       "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\HospitalMS\\obj\\",
+      "outputPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\HospitalMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6211,11 +6211,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
-              "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj"
+            "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj": {
+              "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaDatos\\CapaDatos.csproj"
             },
-            "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\Alexander\\Desktop\\Universidad\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj"
+            "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\Alexander\\Desktop\\HospitalMS\\HospitalMS\\CapaNegocio\\CapaNegocio.csproj"
             }
           }
         }
